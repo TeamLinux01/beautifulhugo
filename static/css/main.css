@@ -223,7 +223,7 @@ figure:not(.dark) img, img.white {
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 0 0 30px 0;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -243,7 +243,7 @@ figure:not(.dark) img, img.white {
   transition: visibility 0.5s, opacity 0.5s ease-in-out;
   left: 50%;
   width: 50px;
-  margin-top: -25px;
+  margin-top: -10px;
 }
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
@@ -272,7 +272,7 @@ figure:not(.dark) img, img.white {
 @media only screen and (min-width: 768px) {
   .navbar-custom .avatar-container {
     width: 100px;
-    margin-top: -50px;
+    margin-top: -25px;
   }
 
   .navbar-custom .avatar-container  .avatar-img-border {
